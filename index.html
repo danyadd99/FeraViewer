@@ -6,13 +6,13 @@
     <title>Unity WebGL Player | FeraViewer</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" style="width: 1280px; height: 768px; background: #000000"></canvas>
+    <canvas id="unity-canvas" style="width: 1280px; height: 680px; background: #000000"></canvas>
     <script src="Build/FeraViewer.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/FeraViewer.data.gz",
-        frameworkUrl: "Build/FeraViewer.framework.js.gz",
-        codeUrl: "Build/FeraViewer.wasm.gz",
+        dataUrl: "Build/FeraViewer.data",
+        frameworkUrl: "Build/FeraViewer.framework.js",
+        codeUrl: "Build/FeraViewer.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Danyadd",
         productName: "FeraViewer",
